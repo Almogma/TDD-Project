@@ -4,7 +4,6 @@ from src.BubbleSort import BubbleSort
 
 class MyTestCase(unittest.TestCase):
 
-
     def test_currect_sort(self):
 
         #sub_values
