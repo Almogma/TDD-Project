@@ -21,9 +21,3 @@ class BubbleSort:
                 return arr
      except TypeError:
         return "Invalid_Values"
-
-    def Refactoring_BubbleSort(arr):
-
-        return map(lambda a,b: (a,b) for (b,a) ,filter(lambda j: arr[j] > arr[j+1],arr)
-
-    print(Refactoring_BubbleSort([1,2]))
