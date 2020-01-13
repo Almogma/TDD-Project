@@ -5,7 +5,6 @@ class BubbleSort:
      try:
                 arr = list(arr)
                 n = len(arr)
-
             # Traverse through all array elements
                 for i in range(n):
 
