@@ -20,9 +20,9 @@ class MyTestCase(unittest.TestCase):
 
 
         #action
-        result1 = Bmi_test.bmi_calc(weight_1, height_1)
-        result2 = Bmi_test.bmi_calc(weight_2, height_2)
-        result3 = Bmi_test.bmi_calc(weight_3, height_3)
+        result1 = Bmi_code.bmi_calc(weight_1, height_1)
+        result2 = Bmi_code.bmi_calc(weight_2, height_2)
+        result3 = Bmi_code.bmi_calc(weight_3, height_3)
 
 
         #expect/assert
@@ -35,11 +35,11 @@ class MyTestCase(unittest.TestCase):
 
         #sub_values
         weight_1 = 'a'
-        weight_2 = 'b'
+        weight_2 = True
         weight_3 = 3
 
         height_1 = 'b'
-        height_2 = 'b'
+        height_2 = None
         height_3 = 1
 
         #assume
@@ -49,9 +49,9 @@ class MyTestCase(unittest.TestCase):
 
 
         #action
-        result1 = Bmi_test.bmi_calc(weight_1, height_1)
-        result2 = Bmi_test.bmi_calc(weight_2, height_2)
-        result3 = Bmi_test.bmi_calc(weight_3, height_3)
+        result1 = Bmi_code.bmi_calc(weight_1, height_1)
+        result2 = Bmi_code.bmi_calc(weight_2, height_2)
+        result3 = Bmi_code.bmi_calc(weight_3, height_3)
 
 
         #expect/assert
@@ -78,11 +78,11 @@ class MyTestCase(unittest.TestCase):
 
 
         #action
-        result1 = Bmi_test.bmi_check(bmi_1)
-        result2 = Bmi_test.bmi_check(bmi_2)
-        result3 = Bmi_test.bmi_check(bmi_3)
-        result4 = Bmi_test.bmi_check(bmi_4)
-        result5 = Bmi_test.bmi_check(bmi_5)
+        result1 = Bmi_code.bmi_check(bmi_1)
+        result2 = Bmi_code.bmi_check(bmi_2)
+        result3 = Bmi_code.bmi_check(bmi_3)
+        result4 = Bmi_code.bmi_check(bmi_4)
+        result5 = Bmi_code.bmi_check(bmi_5)
 
 
         #expect/assert
