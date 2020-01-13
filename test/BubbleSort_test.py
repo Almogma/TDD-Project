@@ -4,7 +4,7 @@ from src.BubbleSort import BubbleSort
 
 class MyTestCase(unittest.TestCase):
 
-    def test_currect_sort(self):
+    def test_correct_sort(self):
 
         #sub_values
         arr_1 = [-1,-10,6,5]
@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
         arr_5 = map(lambda x: x *2 ,[1, 4, 2])
         arr_6 = filter(lambda x: x > 0, [-1,6,-10,9])
         arr_7 = []
-        arr_8 = [1,1,1,1]
+        arr_8 = [1,1,1.5,1]
 
         #assume
         expected1 = [-10,-1,5,6]
@@ -24,7 +24,7 @@ class MyTestCase(unittest.TestCase):
         expected5 = [2, 4, 8]
         expected6 = [6,9]
         expected7 = []
-        expected8 = [1,1,1,1]
+        expected8 = [1,1,1,1.5]
 
         #action
         result1 = BubbleSort.bubbleSort(arr_1)
