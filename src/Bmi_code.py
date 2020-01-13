@@ -1,5 +1,5 @@
 class Bmi_code:
-    
+
     @staticmethod
     def bmi_calc(weight, height):
         if type(weight) != int and type(weight) != float:
