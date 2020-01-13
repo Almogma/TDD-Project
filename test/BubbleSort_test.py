@@ -65,9 +65,5 @@ class MyTestCase(unittest.TestCase):
         self.assertRaises(expected1, BubbleSort.bubbleSort(arr_2))
         self.assertRaises(expected1, BubbleSort.bubbleSort(arr_3))
 
-
-
-
-
 if __name__ == '__main__':
     unittest.main()
